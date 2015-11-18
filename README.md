@@ -1,5 +1,5 @@
 # NullableSetter
-NullableSetter is a NSObject category protecting properties can't be set null
+NullableSetter is a NSObject category protecting properties can't be set null.
 
 Inspired by FLCodeInjector: https://github.com/lombax85/FLCodeInjector, this NSObject category auto-generate setter for all encode types of properties, add non-null validation for id type argument, ignore primitive types.
 
