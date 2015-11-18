@@ -19,22 +19,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    
-    UserInfo *info = [UserInfo new];
-    
-    info.name = @"1";
-    info.address = @"a";
-    
-    NSLog(@"name = %@, address = %@, gender = %d", info.name, info.address, info.gender);
-    
-    [info protectNullableSetters];
-    
-    info.name = nil;
-    info.address = @"b";
-    info.gender = YES;
-    NSLog(@"name = %@, address = %@ gender = %d", info.name, info.address, info.gender);
-    
     return YES;
 }
 

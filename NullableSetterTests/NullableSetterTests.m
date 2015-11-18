@@ -66,14 +66,35 @@
     
     self.info.name = @"1";
     self.info.extDic = @{};
+    self.info.extArr = @[];
     XCTAssertEqualObjects(self.info.name, @"1");
     XCTAssertEqualObjects(self.info.extDic, @{});
+    XCTAssertEqualObjects(self.info.extArr, @[]);
     
     self.info.name = nil;
     self.info.extDic = nil;
+    self.info.extArr = nil;
     XCTAssertEqualObjects(self.info.name, @"1");
     XCTAssertEqualObjects(self.info.extDic, @{});
+    XCTAssertEqualObjects(self.info.extArr, @[]);    
 }
 
+- (void)testStruct {
+    
+    self.info.rect = CGRectZero;
+    
+    XCTAssertTrue(CGRectEqualToRect(self.info.rect, CGRectZero));
+}
+
+
+//you start by writing a closure literal, hand it to the API and, after a few hoops, you want to assert that a certain closure reference is the same as the original closure literal you’ve written.
+//but there's no such closure equality API, so I just check it's not nil.
+- (void)testBlock {
+    self.info.aBlock = ^{};
+    XCTAssertTrue(self.info.aBlock != nil);
+    
+    self.info.aBlock = nil;
+    XCTAssertTrue(self.info.aBlock != nil);
+}
 
 @end

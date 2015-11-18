@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 enum Gender {
     Male,
@@ -14,11 +15,20 @@ enum Gender {
     Other,
 };
 
+typedef void(^aBlock)(void);
+
+
+
+
 @interface UserInfo : NSObject
 
+//objects
 @property(nonatomic, strong)NSString *address;
 @property(nonatomic, strong)NSString *name;
 @property(nonatomic, strong)NSDictionary *extDic;
+@property(nonatomic, strong)NSArray *extArr;
+
+//primitives
 @property(nonatomic, assign)enum Gender gender;
 @property(nonatomic, assign)BOOL married;
 @property(nonatomic, assign)short age;
@@ -26,5 +36,16 @@ enum Gender {
 @property(nonatomic, assign)double height;
 @property(nonatomic, assign)long mobile;
 @property(nonatomic, assign)int card;
+
+//struct
+@property(nonatomic, assign)CGRect rect;
+@property(nonatomic, assign)CGPoint point;
+
+//famous primitives
+@property(nonatomic, assign)NSInteger integerCard;
+@property(nonatomic, assign)NSUInteger uintegerCard;
+
+//block
+@property(nonatomic, assign)aBlock aBlock;
 
 @end
