@@ -10,6 +10,10 @@
 
 @interface NSObject (NullableSetter)
 
+//auto-generate custom non-null setters protecting properties not be null
 - (void)protectNullableSetters;
+
+//with given property name list
+- (void)protectNullableSettersWithPropNames:(NSArray *)propNames;
 
 @end

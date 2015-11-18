@@ -57,7 +57,11 @@
 }
 
 - (void)testFamousAliasPrimitives {
+    self.info.integerCard = 1111;
+    self.info.uintegerCard = 2222;
     
+    XCTAssertEqual(self.info.integerCard, 1111);
+    XCTAssertEqual(self.info.uintegerCard, 2222);
 }
 
 - (void)testObjects {
@@ -86,15 +90,5 @@
     XCTAssertTrue(CGRectEqualToRect(self.info.rect, CGRectZero));
 }
 
-
-//you start by writing a closure literal, hand it to the API and, after a few hoops, you want to assert that a certain closure reference is the same as the original closure literal you’ve written.
-//but there's no such closure equality API, so I just check it's not nil.
-- (void)testBlock {
-    self.info.aBlock = ^{};
-    XCTAssertTrue(self.info.aBlock != nil);
-    
-    self.info.aBlock = nil;
-    XCTAssertTrue(self.info.aBlock != nil);
-}
 
 @end
