@@ -26,5 +26,6 @@ usage:
 print:
 
 2015-11-18 15:06:28.799 NullableSetter[26333:2580472] name = 1, url = a, gender = 0
+
 2015-11-18 15:06:28.800 NullableSetter[26333:2580472] name = 1, url = b gender = 1
 
