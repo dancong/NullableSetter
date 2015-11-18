@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF6DA5D1BFC1F220013C0E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6DA5C1BFC1F220013C0E8 /* main.m */; };
+		4DF6DA601BFC1F220013C0E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6DA5F1BFC1F220013C0E8 /* AppDelegate.m */; };
+		4DF6DA631BFC1F220013C0E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6DA621BFC1F220013C0E8 /* ViewController.m */; };
+		4DF6DA661BFC1F220013C0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF6DA641BFC1F220013C0E8 /* Main.storyboard */; };
+		4DF6DA681BFC1F220013C0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF6DA671BFC1F220013C0E8 /* Assets.xcassets */; };
+		4DF6DA6B1BFC1F220013C0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF6DA691BFC1F220013C0E8 /* LaunchScreen.storyboard */; };
+		4DF6DA761BFC1F220013C0E8 /* NullableSetterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6DA751BFC1F220013C0E8 /* NullableSetterTests.m */; };
+		4DF6DA811BFC1F220013C0E8 /* NullableSetterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6DA801BFC1F220013C0E8 /* NullableSetterUITests.m */; };
+		4DF6DA901BFC1FA80013C0E8 /* NSObject+NullableSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6DA8F1BFC1FA80013C0E8 /* NSObject+NullableSetter.m */; };
+		4DF6DA931BFC21300013C0E8 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6DA921BFC21300013C0E8 /* UserInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF6DA721BFC1F220013C0E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF6DA501BFC1F220013C0E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF6DA571BFC1F220013C0E8;
+			remoteInfo = NullableSetter;
+		};
+		4DF6DA7D1BFC1F220013C0E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF6DA501BFC1F220013C0E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF6DA571BFC1F220013C0E8;
+			remoteInfo = NullableSetter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DF6DA581BFC1F220013C0E8 /* NullableSetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NullableSetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF6DA5C1BFC1F220013C0E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DF6DA5E1BFC1F220013C0E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DF6DA5F1BFC1F220013C0E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DF6DA611BFC1F220013C0E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DF6DA621BFC1F220013C0E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DF6DA651BFC1F220013C0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DF6DA671BFC1F220013C0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DF6DA6A1BFC1F220013C0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DF6DA6C1BFC1F220013C0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF6DA711BFC1F220013C0E8 /* NullableSetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NullableSetterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF6DA751BFC1F220013C0E8 /* NullableSetterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NullableSetterTests.m; sourceTree = "<group>"; };
+		4DF6DA771BFC1F220013C0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF6DA7C1BFC1F220013C0E8 /* NullableSetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NullableSetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF6DA801BFC1F220013C0E8 /* NullableSetterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NullableSetterUITests.m; sourceTree = "<group>"; };
+		4DF6DA821BFC1F220013C0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF6DA8E1BFC1FA80013C0E8 /* NSObject+NullableSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NullableSetter.h"; sourceTree = "<group>"; };
+		4DF6DA8F1BFC1FA80013C0E8 /* NSObject+NullableSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NullableSetter.m"; sourceTree = "<group>"; };
+		4DF6DA911BFC21300013C0E8 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		4DF6DA921BFC21300013C0E8 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF6DA551BFC1F220013C0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF6DA6E1BFC1F220013C0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF6DA791BFC1F220013C0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF6DA4F1BFC1F220013C0E8 = {
+			isa = PBXGroup;
+			children = (
+				4DF6DA5A1BFC1F220013C0E8 /* NullableSetter */,
+				4DF6DA741BFC1F220013C0E8 /* NullableSetterTests */,
+				4DF6DA7F1BFC1F220013C0E8 /* NullableSetterUITests */,
+				4DF6DA591BFC1F220013C0E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF6DA591BFC1F220013C0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6DA581BFC1F220013C0E8 /* NullableSetter.app */,
+				4DF6DA711BFC1F220013C0E8 /* NullableSetterTests.xctest */,
+				4DF6DA7C1BFC1F220013C0E8 /* NullableSetterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF6DA5A1BFC1F220013C0E8 /* NullableSetter */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6DA911BFC21300013C0E8 /* UserInfo.h */,
+				4DF6DA921BFC21300013C0E8 /* UserInfo.m */,
+				4DF6DA8E1BFC1FA80013C0E8 /* NSObject+NullableSetter.h */,
+				4DF6DA8F1BFC1FA80013C0E8 /* NSObject+NullableSetter.m */,
+				4DF6DA5E1BFC1F220013C0E8 /* AppDelegate.h */,
+				4DF6DA5F1BFC1F220013C0E8 /* AppDelegate.m */,
+				4DF6DA611BFC1F220013C0E8 /* ViewController.h */,
+				4DF6DA621BFC1F220013C0E8 /* ViewController.m */,
+				4DF6DA641BFC1F220013C0E8 /* Main.storyboard */,
+				4DF6DA671BFC1F220013C0E8 /* Assets.xcassets */,
+				4DF6DA691BFC1F220013C0E8 /* LaunchScreen.storyboard */,
+				4DF6DA6C1BFC1F220013C0E8 /* Info.plist */,
+				4DF6DA5B1BFC1F220013C0E8 /* Supporting Files */,
+			);
+			path = NullableSetter;
+			sourceTree = "<group>";
+		};
+		4DF6DA5B1BFC1F220013C0E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6DA5C1BFC1F220013C0E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DF6DA741BFC1F220013C0E8 /* NullableSetterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6DA751BFC1F220013C0E8 /* NullableSetterTests.m */,
+				4DF6DA771BFC1F220013C0E8 /* Info.plist */,
+			);
+			path = NullableSetterTests;
+			sourceTree = "<group>";
+		};
+		4DF6DA7F1BFC1F220013C0E8 /* NullableSetterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6DA801BFC1F220013C0E8 /* NullableSetterUITests.m */,
+				4DF6DA821BFC1F220013C0E8 /* Info.plist */,
+			);
+			path = NullableSetterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF6DA571BFC1F220013C0E8 /* NullableSetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF6DA851BFC1F220013C0E8 /* Build configuration list for PBXNativeTarget "NullableSetter" */;
+			buildPhases = (
+				4DF6DA541BFC1F220013C0E8 /* Sources */,
+				4DF6DA551BFC1F220013C0E8 /* Frameworks */,
+				4DF6DA561BFC1F220013C0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NullableSetter;
+			productName = NullableSetter;
+			productReference = 4DF6DA581BFC1F220013C0E8 /* NullableSetter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF6DA701BFC1F220013C0E8 /* NullableSetterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF6DA881BFC1F220013C0E8 /* Build configuration list for PBXNativeTarget "NullableSetterTests" */;
+			buildPhases = (
+				4DF6DA6D1BFC1F220013C0E8 /* Sources */,
+				4DF6DA6E1BFC1F220013C0E8 /* Frameworks */,
+				4DF6DA6F1BFC1F220013C0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF6DA731BFC1F220013C0E8 /* PBXTargetDependency */,
+			);
+			name = NullableSetterTests;
+			productName = NullableSetterTests;
+			productReference = 4DF6DA711BFC1F220013C0E8 /* NullableSetterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DF6DA7B1BFC1F220013C0E8 /* NullableSetterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF6DA8B1BFC1F220013C0E8 /* Build configuration list for PBXNativeTarget "NullableSetterUITests" */;
+			buildPhases = (
+				4DF6DA781BFC1F220013C0E8 /* Sources */,
+				4DF6DA791BFC1F220013C0E8 /* Frameworks */,
+				4DF6DA7A1BFC1F220013C0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF6DA7E1BFC1F220013C0E8 /* PBXTargetDependency */,
+			);
+			name = NullableSetterUITests;
+			productName = NullableSetterUITests;
+			productReference = 4DF6DA7C1BFC1F220013C0E8 /* NullableSetterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF6DA501BFC1F220013C0E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = dancyd;
+				TargetAttributes = {
+					4DF6DA571BFC1F220013C0E8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4DF6DA701BFC1F220013C0E8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4DF6DA571BFC1F220013C0E8;
+					};
+					4DF6DA7B1BFC1F220013C0E8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4DF6DA571BFC1F220013C0E8;
+					};
+				};
+			};
+			buildConfigurationList = 4DF6DA531BFC1F220013C0E8 /* Build configuration list for PBXProject "NullableSetter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DF6DA4F1BFC1F220013C0E8;
+			productRefGroup = 4DF6DA591BFC1F220013C0E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF6DA571BFC1F220013C0E8 /* NullableSetter */,
+				4DF6DA701BFC1F220013C0E8 /* NullableSetterTests */,
+				4DF6DA7B1BFC1F220013C0E8 /* NullableSetterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF6DA561BFC1F220013C0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF6DA6B1BFC1F220013C0E8 /* LaunchScreen.storyboard in Resources */,
+				4DF6DA681BFC1F220013C0E8 /* Assets.xcassets in Resources */,
+				4DF6DA661BFC1F220013C0E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF6DA6F1BFC1F220013C0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF6DA7A1BFC1F220013C0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF6DA541BFC1F220013C0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF6DA631BFC1F220013C0E8 /* ViewController.m in Sources */,
+				4DF6DA901BFC1FA80013C0E8 /* NSObject+NullableSetter.m in Sources */,
+				4DF6DA601BFC1F220013C0E8 /* AppDelegate.m in Sources */,
+				4DF6DA931BFC21300013C0E8 /* UserInfo.m in Sources */,
+				4DF6DA5D1BFC1F220013C0E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF6DA6D1BFC1F220013C0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF6DA761BFC1F220013C0E8 /* NullableSetterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF6DA781BFC1F220013C0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF6DA811BFC1F220013C0E8 /* NullableSetterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF6DA731BFC1F220013C0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF6DA571BFC1F220013C0E8 /* NullableSetter */;
+			targetProxy = 4DF6DA721BFC1F220013C0E8 /* PBXContainerItemProxy */;
+		};
+		4DF6DA7E1BFC1F220013C0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF6DA571BFC1F220013C0E8 /* NullableSetter */;
+			targetProxy = 4DF6DA7D1BFC1F220013C0E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DF6DA641BFC1F220013C0E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF6DA651BFC1F220013C0E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DF6DA691BFC1F220013C0E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF6DA6A1BFC1F220013C0E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DF6DA831BFC1F220013C0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DF6DA841BFC1F220013C0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF6DA861BFC1F220013C0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NullableSetter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancyd.nullablesetter.NullableSetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DF6DA871BFC1F220013C0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NullableSetter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancyd.nullablesetter.NullableSetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DF6DA891BFC1F220013C0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NullableSetterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancyd.nullablesetter.NullableSetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NullableSetter.app/NullableSetter";
+			};
+			name = Debug;
+		};
+		4DF6DA8A1BFC1F220013C0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NullableSetterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancyd.nullablesetter.NullableSetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NullableSetter.app/NullableSetter";
+			};
+			name = Release;
+		};
+		4DF6DA8C1BFC1F220013C0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NullableSetterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancyd.nullablesetter.NullableSetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NullableSetter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4DF6DA8D1BFC1F220013C0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NullableSetterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dancyd.nullablesetter.NullableSetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NullableSetter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF6DA531BFC1F220013C0E8 /* Build configuration list for PBXProject "NullableSetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF6DA831BFC1F220013C0E8 /* Debug */,
+				4DF6DA841BFC1F220013C0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF6DA851BFC1F220013C0E8 /* Build configuration list for PBXNativeTarget "NullableSetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF6DA861BFC1F220013C0E8 /* Debug */,
+				4DF6DA871BFC1F220013C0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DF6DA881BFC1F220013C0E8 /* Build configuration list for PBXNativeTarget "NullableSetterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF6DA891BFC1F220013C0E8 /* Debug */,
+				4DF6DA8A1BFC1F220013C0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DF6DA8B1BFC1F220013C0E8 /* Build configuration list for PBXNativeTarget "NullableSetterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF6DA8C1BFC1F220013C0E8 /* Debug */,
+				4DF6DA8D1BFC1F220013C0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DF6DA501BFC1F220013C0E8 /* Project object */;
+}
