@@ -90,5 +90,15 @@
     XCTAssertTrue(CGRectEqualToRect(self.info.rect, CGRectZero));
 }
 
+- (void)testClass {
+    
+    self.info.cls = self.class;
+    XCTAssertEqual(self.info.cls, self.class);
+    
+    //Class is not id, will be nil
+    self.info.cls = nil;
+    XCTAssertNil(self.info.cls);
+}
+
 
 @end

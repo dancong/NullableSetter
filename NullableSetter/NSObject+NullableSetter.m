@@ -16,21 +16,25 @@
 #define NULLABLE_PREFIX @"nullable_"
 
 
+//Try to handle all type encoding from Apple Doc:
+//https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html
+//Block, struct, array, union, bit, pointer, is not supported
+
+//alias type with space
 typedef long long long_long;
 typedef unsigned char unsigned_char;
 typedef unsigned int unsigned_int;
 typedef unsigned short unsigned_short;
 typedef unsigned long unsigned_long;
 typedef unsigned long long unsigned_long_long;
-typedef  char * char_x;
-
+typedef char * char_x;
 
 #define else_if_getReturnValue_for_type(type, returnType)  \
 else if (strcmp(@encode( type ), returnType) == 0)         \
 {                                                          \
     if (sizeOfReturnValue != 0)                            \
     {                                                      \
-        type *value = malloc(sizeOfReturnValue);           \
+        type *value = (type *)malloc(sizeOfReturnValue);   \
         [invocation getReturnValue:value];                 \
         finalValue = value;                                \
     }                                                      \
@@ -135,6 +139,7 @@ void * getReturnValue(id self, SEL cmd, va_list argumentsToCopy) {
         else_if_setArgument_for_type(char_x, type, invocation, arguments, idx)
         else_if_setArgument_for_type(SEL, type, invocation, arguments, idx)
         else_if_setArgument_for_type(CGRect, type, invocation, arguments, idx)
+        else_if_setArgument_for_type(Class, type, invocation, arguments, idx)
         else
         {
             // the argument is char, short, unsigned char, unsigned short, bool, _Bool or others, will promote to int
@@ -190,6 +195,7 @@ void * getReturnValue(id self, SEL cmd, va_list argumentsToCopy) {
     else_if_getReturnValue_for_type(char_x, returnType)
     else_if_getReturnValue_for_type(SEL, returnType)
     else_if_getReturnValue_for_type(CGRect, returnType)
+    else_if_getReturnValue_for_type(Class, returnType)
     else
     {
         // the return value is something different

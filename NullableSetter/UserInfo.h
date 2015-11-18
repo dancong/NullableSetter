@@ -45,7 +45,10 @@ typedef void(^aBlock)(void);
 @property(nonatomic, assign)NSInteger integerCard;
 @property(nonatomic, assign)NSUInteger uintegerCard;
 
-//block
+//block, not supported
 @property(nonatomic, assign)aBlock aBlock;
+
+//Class
+@property(nonatomic, strong)Class cls;
 
 @end
